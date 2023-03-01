@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ServicesController;
 
 
 /*
@@ -23,11 +24,9 @@ Route::get('/welcome', function(){
 Route::get('/', function(){
         return view('index');    
 });
-Route::get('/services', function(){
-    return view('services');
-    
-});
 
+Route::get('/services',[ServicesController ::class, 'index'])->name('services.index');
+    
 Route::get('/blog',[BlogController ::class, 'index'])->name('blog.index');
     
 

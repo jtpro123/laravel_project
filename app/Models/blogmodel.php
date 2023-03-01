@@ -11,7 +11,7 @@ class blogmodel
         $blogs = [
             [
                 'id'  => '1',
-                'blog_title' => 'Easily Grow Your Business Earn More Money',
+                'blog_title' => 'Easily Grow your Business Earn More Money',
                 'blog_desc' => 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by 
                 injected humour, or randomised words There uffered alteration in some form, by injected humour, or randomised words',
 
@@ -25,7 +25,7 @@ class blogmodel
             ],
             [
                 'id'  => '3',
-                'blog_title' => 'hard',
+                'blog_title' => 'hardly',
                 'blog_desc' => 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by 
                 injected humour, or randomised words There uffered alteration in some form, by injected humour, or randomised words',
                 
