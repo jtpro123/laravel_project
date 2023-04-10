@@ -17,6 +17,8 @@ class CreateBlogsTable extends Migration
             $table->id();
             $table->longtext('blog_title');
             $table->longtext('blog_desc');
+            $table->timestamps();
+            
         });
     }
 

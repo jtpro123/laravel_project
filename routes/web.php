@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BlogController;
+use App\Http\Controllers\_BlogController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\Admincontroller;
 
 
 /*
@@ -27,7 +28,9 @@ Route::get('/', function(){
 
 Route::get('/services',[ServicesController ::class, 'index'])->name('services.index');
     
-Route::get('/blog',[BlogController ::class, 'index'])->name('blog.index');
+Route::get('/blog',[_BlogController ::class, 'index'])->name('blog.index');
+
+Route::resource('/admin',Admincontroller ::class);
     
 
 Route::get('/about', function(){

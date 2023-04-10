@@ -31,6 +31,7 @@ class _blogmodel
                 injected humour, or randomised words There uffered alteration in some form, by injected humour, or randomised words',
                 
             ]
+          
 
             ];
             return ($blogs);
